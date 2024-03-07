@@ -30,7 +30,7 @@ const TAB_DATA = [
     content: (
       <div>
         <ul className='list-disc pl-2'>
-          <li>Bachelor's of Engineering</li>
+          <li>Bachelor&apos;s of Engineering</li>
           <p className='text-[#ADB7BE]'>Terna Engineering College</p>
           <p className='text-[#ADB7BE]'>Scored: 7.95 CGPA</p>
         </ul>
