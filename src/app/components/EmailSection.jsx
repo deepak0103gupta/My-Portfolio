@@ -1,10 +1,16 @@
+"use client";
 import React from 'react'
 import GithubIcon from "../../../public/github-icon.svg"
 import LinkedinIcon from "../../../public/linkedin-icon.svg"
 import Link from 'next/link'
 import Image from 'next/image'
+import { toast } from 'react-toastify';
 
 function EmailSection() {
+    function submitHandler(event) {
+        event.preventDefault();
+        toast.success('Message Sent Successfully!');
+    }
   return (
     <section className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4'>
         <div>
@@ -24,7 +30,7 @@ function EmailSection() {
             </div>
         </div>
         <div>
-            <form className='flex flex-col'>
+            <form onSubmit={submitHandler} className='flex flex-col'>
                 <div className='mb-6'>
                     <label htmlFor='email' className='text-white block mb-2  text-sm font-medium '>
                         Your email
@@ -63,7 +69,7 @@ function EmailSection() {
                         />
                 </div>
 
-                <button type='submit' className='bg-purple-500 hover:bg-purple-600 text-white font-medium py-2.5 px-5 rounded-lg w-full'>
+                <button  type='submit' className='bg-purple-500 hover:bg-purple-600 text-white font-medium py-2.5 px-5 rounded-lg w-full'>
                     Send Message
                 </button>
             </form>

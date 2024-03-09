@@ -2,9 +2,11 @@ import React from 'react'
 import { FaGithub } from "react-icons/fa";
 import Link from 'next/link';
 
+
 function ProjectCard({imageUrl,title,description,gitUrl}) {
+
   return (
-    <div>
+    <div >
         <div 
             className='h-52 d:h-72 rounded-t-xl relative group'
             style={{background: `url(${imageUrl})`, backgroundSize: "cover"}}
