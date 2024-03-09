@@ -6,7 +6,7 @@ import Link from 'next/link';
 function ProjectCard({imageUrl,title,description,gitUrl}) {
 
   return (
-    <div >
+    <div className='shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]' >
         <div 
             className='h-52 d:h-72 rounded-t-xl relative group'
             style={{background: `url(${imageUrl})`, backgroundSize: "cover"}}

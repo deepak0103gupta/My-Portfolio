@@ -75,9 +75,9 @@ function ProjectSection() {
     project.tag.includes(tag)
   );
   return (
-    <div ref={ref}>
+    <div id='projects' ref={ref}>
         <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">My Projects</h2>
-        <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+        <div className="text-white text-sm flex flex-row justify-center items-center gap-2 py-6">
             <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === "All"} />
             <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag === "Web"} />
             <ProjectTag onClick={handleTagChange} name="Machine Learning" isSelected={tag === "Machine Learning"} />
@@ -87,7 +87,7 @@ function ProjectSection() {
                 // projectsData.map((project) => (
                 //     <ProjectCard key={project.id} title={project.title} description={project.description} imageUrl={project.image} gitUrl={project.gitUrl} />
                 // ))
-                <ul className="grid md:grid-cols-3 gap-8 md:gap-12 "> 
+                <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 "> 
                     {
                     
                     filteredProjects.map((project,index) => (
