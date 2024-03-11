@@ -10,16 +10,16 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#121212] scroll-smooth  ">
-      <ToastContainer />
-      <NavBar />
-      <div className="container mx-auto mt-24 px-12 py-4">
-        <HeroSection />
-        <AboutSection />
-        <ProjectSection />
-        <EmailSection />
-      </div>
-      <Footer />
-    </main>
+      <main className="flex min-h-screen flex-col bg-[#121212]">
+          <ToastContainer />
+          <NavBar />
+          <div className="container mx-auto mt-24 px-12 py-4">
+            <HeroSection />
+            <AboutSection />
+            <ProjectSection />
+            <EmailSection />
+          </div>
+          <Footer />
+      </main>
   );
 }
