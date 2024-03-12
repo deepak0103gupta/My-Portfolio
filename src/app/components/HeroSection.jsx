@@ -3,20 +3,17 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import Image from "next/image"
 
-import { useRouter } from "next/navigation";
+
 import {motion} from "framer-motion"
 
 
 const HeroSection = () => {
 
-    const router = useRouter();
-    function clickHandler(){
-        router.push("/contact");
-    }
+
 
 
     return(
-        <section className="lg:py-16">
+        <section id="home" className="lg:py-16">
             <div className="grid grid-cols-1 sm:grid-cols-12">
                 <motion.div
                     initial={{opacity:0, scale:0}}
@@ -46,10 +43,12 @@ const HeroSection = () => {
                         Passionate about Creativity, Innovation, and Crafting Meaningful Digital Solutions.
                 </p>
                 <div className="flex flex-col  justify-center gap-4">
-                    <button onClick={clickHandler} class=" mr-3 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce">
-                            Hire Me
-                    </button>
 
+                    <a href={"#contact"} className="flex flex-col  justify-center gap-4">
+                        <button  class=" mr-3 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce">
+                                Hire Me
+                        </button>
+                    </a>
                     <a href="/cv.pdf" download="cv" className="flex flex-col  justify-center gap-4">
                         <button  class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce">
                                 Download CV
