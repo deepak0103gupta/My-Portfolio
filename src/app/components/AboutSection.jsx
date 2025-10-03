@@ -15,11 +15,17 @@ const TAB_DATA = [
           <li>Tailwind CSS</li>
           <li>Java Script</li>
         </ul>
-          <ul className='list-disc pl-2'> 
+        <ul className='list-disc pl-2'> 
           <li>React Js</li>
           <li>Java</li>
           <li>C++</li>
           <li>Machine Learning</li>
+        </ul>
+        <ul className='list-disc pl-2'> 
+          <li>Angular</li>
+          <li>Spring Boot</li>
+          <li>MySQL</li>
+          <li>Power Apps</li>
         </ul>
       </div>
     )
