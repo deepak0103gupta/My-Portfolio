@@ -32,17 +32,17 @@ const TAB_DATA = [
         <ul className='list-disc pl-2'>
           <li>Bachelor&apos;s of Engineering</li>
           <p className='text-[#ADB7BE]'>Terna Engineering College</p>
-          <p className='text-[#ADB7BE]'>Scored: 7.95 CGPA</p>
+          
         </ul>
         <ul className='list-disc pl-2'>
           <li>Higher Secodnary Education</li>
           <p className='text-[#ADB7BE]'>Vani Vidyalaya</p>
-          <p className='text-[#ADB7BE]'>Scored: 62.62%</p>
+          
         </ul>
         <ul className='list-disc pl-2'>
           <li>Secodnary Education</li>
           <p className='text-[#ADB7BE]'>Vani Vidyalaya</p>
-          <p className='text-[#ADB7BE]'>Scored: 76.80%</p>
+          
         </ul>        
       </div>
 
