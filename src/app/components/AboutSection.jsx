@@ -54,6 +54,10 @@ const TAB_DATA = [
     content: (
       <div>
         <ul className='list-disc pl-2'>
+          <li>Software Engineer</li>
+          <p className='text-[#ADB7BE]'>LTIMindtree (April 2024 to Working...)</p>
+        </ul>       
+        <ul className='list-disc pl-2'>
           <li>Java Devlopment</li>
           <p className='text-[#ADB7BE]'>LTIMindtree (March 2023 to May 2023)</p>
         </ul>       
