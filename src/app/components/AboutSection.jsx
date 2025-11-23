@@ -92,7 +92,6 @@ function AboutSection() {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            hi
             I’m Deepak Gupta, a passionate Full Stack Developer currently
             working at LTIMindtree, where I build and maintain enterprise-grade
             web applications for global clients. My expertise lies in developing
